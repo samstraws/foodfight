@@ -1,0 +1,1 @@
+module StringDict = Map.Make(String)

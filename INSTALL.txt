@@ -1,0 +1,31 @@
+To run our test system, please run "make clean" then "make build" and finally run 
+"make test" in the terminal 
+  (Note: You may need to run "cd Command" first to get inside the Command
+  directory that houses everything). 
+
+In order to play the actual game, please run "make play" in the terminal.
+
+Instructions for playing game:
+  To play the game please choose the mode you'd like to play in (single player
+  or 2 player). In single player, you'll play the computer while in 2 player you
+  fight another person.
+
+  The goal is to defeat your opponent by reducing the health of all of the foods
+  of their character to 0.  
+
+  Players will take turns attacking each other (one round consists of a move
+  from each character).  Players can either use their current food to make a 
+  move or they can choose to switch out their current food for a different one.
+  You can reduce your opponent's health by using the attacks available to the
+  current food, heal your own current food if you have a heal, or do a little of
+  both with a drain move. Choose a move by typing in the name of it.
+
+  If the health of a food goes to zero, that food has "Expired" and can no
+  longer be used to make moves. Once all the character's foods expire, the 
+  character is dead and the game ends.
+
+  Special Feature: In the 2 player mode, you have the option to customize your
+  own character and use them to play: You can choose their name, and three foods
+  that they can use.  
+
+To see documentation of the functions please run "make doc"
